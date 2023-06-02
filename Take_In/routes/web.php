@@ -12,7 +12,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/takein', [TakeinController::class, 'inicial']);
+Route::get('/takein/signin', [SignInController::class]);
+Route::get('/takein/singup', [SignUpController::class]);
+Route::get('/takein/home',[HomeController::class]);
+Route::get('/takein/userpage', [UserController::class]);
