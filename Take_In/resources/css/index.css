@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.navbar{
+    border-radius: 7px;
+}
+.main{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.main_image{
+    margin: 50px;
+    margin-left: 100px;
+    border-radius: 400px;
+}
+.main_content{
+    margin-left: 70px;
+    padding: 5px;
+}
