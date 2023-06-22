@@ -5,11 +5,16 @@
     border: none;
     text-decoration: none;
 }
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
 .navbar{
     border-radius: 7px;
 }
 .main{
-    flex-direction: row;
+    flex-direction:column;
     justify-content: center;
     align-items: center
 }
@@ -22,3 +27,37 @@
     margin-left: 70px;
     padding: 5px;
 }
+.title{
+    color: #3b2442;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}  
+.buttons button{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #4c0961;
+    font-weight: bolder;
+    font-size: 15px;
+    border-color: #000;
+    margin-right: 45px;
+  }
+  .buttons button:hover {
+    border: 2px solid #6c84b1;
+    background-color: rgb(192, 208, 219);
+    color: #fff;
+  }
+  .buttons .login {
+    cursor: pointer;
+    text-decoration: none;
+    font-weight:lighter;
+    color: var(--main-color);
+  }
+  .login{
+    display: inline-block;
+  }
+  .login:hover {
+    transform: scale(1.1);
+    color: #4c0961;
+  }
